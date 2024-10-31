@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Pokemon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="pokemon-name">
+            <p>Name:</p>
+            <p class="hp">Health:</p>
+          </div>
+          <div class="image">
+            <img src="image/favicon.png" alt="" id="pokemonImage" />
+          </div>
+          <div class="pokemon-stats">
+            <div class="type"></div>
+            <div class="stats">
+              <p class="atk">Attack: 00</p>
+              <p class="def">Defence: 00</p>
+              <p class="spd">Speed: 00</p>
+            </div>
+          </div>
+        </div>
+        <div class="for-user">
+          <input type="text" id="pokemonName" placeholder="Search pokemon" />
+          <button onclick="pokemonFunction()">Search</button>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

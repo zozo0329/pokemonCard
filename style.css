@@ -1,0 +1,101 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.card {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  padding: 0px;
+  margin: 0px;
+  height: 500px;
+  width: 350px;
+  border: 15px solid #ffff00;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 #00000048, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pokemon-name {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.pokemon-name p {
+  font-family: sans-serif;
+  margin: 3px 10px 5px 10px;
+  font-weight: bold;
+  font-size: 19px;
+}
+.card img {
+  visibility: visible;
+  height: 250px;
+  width: 100%;
+  background-color: #0000007c;
+}
+.pokemon-stats {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 17px;
+}
+.type p {
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.stats {
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+.for-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.for-user input {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+  height: 20px;
+  border: 3px solid black;
+  border-radius: 7px;
+  background-color: hsla(0, 0%, 100%, 0.796);
+  color: black;
+}
+.for-user button {
+  font-family: sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+.for-user button:hover {
+  background-color: #3b3b3b;
+}
