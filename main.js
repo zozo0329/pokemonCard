@@ -107,7 +107,7 @@ function changeCardBackground(types) {
 }
 
 /* 
-
+BACKGROUND COLOR FOR TYPES
 const typeColors = { 
 Normal: '#A8A77A',
  Fire: '#EE8130',
@@ -130,3 +130,24 @@ Normal: '#A8A77A',
  };
 
 */
+/*
+BACKGROUND COLOR FOR CARD
+normal: "#8A7A5B",
+fire: "#CB6A28",
+water: "#4A72B0",
+electric: "#D0B921",
+grass: "#65903C",
+ice: "#7CABAE",
+fighting: "#A0221D",
+poison: "#852E82",
+ground: "#BB9A52",
+flying: "#8873C3",
+psychic: "#D23F6D",
+bug: "#838217",
+rock: "#947C2B",
+ghost: "#594477",
+dragon: "#5530CB",
+dark: "#574436",
+steel: "#9393A3",
+fairy: "#B0698D",
+ */
