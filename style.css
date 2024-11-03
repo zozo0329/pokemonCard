@@ -2,7 +2,7 @@ body {
   padding: 0px;
   margin: 0px;
   height: 100vh;
-  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  background-image: linear-gradient(45deg, #db3939 0%, #000000 100%);
 }
 .container {
   display: flex;
@@ -12,8 +12,7 @@ body {
   margin-top: 40px;
 }
 .card {
-  background-color: #ffe53b;
-  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background: linear-gradient(to right, #ff0202, #fa5c00);
   padding: 0px;
   margin: 0px;
   height: 500px;
@@ -39,7 +38,7 @@ body {
   visibility: visible;
   height: 250px;
   width: 100%;
-  background-color: #0000007c;
+  background-color: #0000006c;
 }
 .pokemon-stats {
   font-family: sans-serif;
