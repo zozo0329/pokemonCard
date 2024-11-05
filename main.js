@@ -105,7 +105,16 @@ function changeCardBackground(types) {
     }
   }
 }
-
+document
+  .querySelector(".for-user button")
+  .addEventListener("click", pokemonFunction);
+document
+  .querySelector("#pokemonName")
+  .addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+      pokemonFunction();
+    }
+  });
 /* 
 BACKGROUND COLOR FOR TYPES
 const typeColors = { 
