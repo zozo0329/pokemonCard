@@ -1,3 +1,14 @@
+document.getElementById("searchButton").addEventListener("click", function () {
+  const inputField = document.getElementById("pokemonName");
+  if (inputField.value.trim() === "") {
+    inputField.classList.remove("shake");
+    void inputField.offsetWidth;
+    inputField.classList.add("shake");
+    return;
+  }
+  pokemonFunction();
+});
+
 async function pokemonFunction() {
   try {
     const promt = document.getElementById("pokemonName").value.toLowerCase();
@@ -115,6 +126,7 @@ document
       pokemonFunction();
     }
   });
+
 /* 
 BACKGROUND COLOR FOR TYPES
 const typeColors = { 

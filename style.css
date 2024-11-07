@@ -98,3 +98,25 @@ body {
 .for-user button:hover {
   background-color: #3b3b3b;
 }
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+input:invalid {
+  animation: shake 0.24s;
+  animation-timing-function: ease-in-out;
+}
